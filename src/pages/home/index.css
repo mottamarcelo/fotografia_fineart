@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+
+* 
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 24px;
+    box-sizing: border-box;
+}
+
+div{
+    padding: 10px;
+}
+
+
+h1{
+    font-family: 'MonteCarlo';
+    margin-top: 36px;
+    font-size: 55px;
+}
+
+h2{
+    margin-top: 40px;
+    margin-left: 5rem;
+}
+
+h3{
+    margin: 20px 0px;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 30px;
+    background-color: darkgrey;
+}
+
+img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.img-camera{
+    margin-top: 25px;
+    margin-left: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+.imagens-vertical{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    padding: 30px;
+}
+
+.img-lago{
+    height: auto;
+    max-height: 600px;
+}
+
+.portfolio-horizontal{
+    background-color: #f6f6f6;
+}
+
+.imagens-horizontal{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 30px;
+}
+
+.img-baloes, .img-cidade, .img-ceu{
+    width: 100%;
+    max-width: 560px;
+}
+
+.fineart{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.descricao{
+    width: 600px;
+}
+
+.img-asadelta{
+    width: 100%;
+    max-width: 560px;
+}
+
+.orcamento{
+    background-color: #f6f6f6;
+    padding: 10px 10px 50px 10px;
+}
+
+.formulario{
+    padding: 20px 30px;
+    display: flex;
+    gap: 110px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 500px;
+}
+
+label{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, #mensagem{
+    width: 100%;
+    max-width: 500px;
+}
+
+#mensagem{
+    height: 100px;
+}
+
+button{
+    margin-top: 20px;
+    width: 80px;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: darkgrey;
+}
+
+.img-noite{
+    width: 100%;
+    max-width: 560px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: darkgrey;
+}
+
+#contato{
+    margin: 20px 20px 20px 40px
+}
+
+.contato{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+
+.pessoal{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: right;
+    align-items: center;
+}
+
+.img-facebook, .img-linkedin, .img-instagram{
+    width: 30px;
+    height: 30px;
+}
+
+@media (max-width: 963px) {
+
+    h1{
+        font-family: 'MonteCarlo';
+        font-size: 40px;
+    }
+    
+
+    h1, h2 {
+        margin: 30px 0 0 0;
+        text-align: center;
+    }
+
+    .img-camera{
+        align-items: center;
+        margin: 15px 10px 0px 10px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .formulario{
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 10px 0px 10px;
+    }
+
+    .contato {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 0px 10px;
+    }
+
+    .pessoal, .redes {
+        justify-content: center;
+    }
+}
